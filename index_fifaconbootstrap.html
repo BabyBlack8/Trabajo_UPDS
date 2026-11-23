@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FC 27</title>
+
+    <!-- Bootstrap 5.3.9 -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- CSS Personalizado -->
+    <link rel="stylesheet" href="css/style_fifa.css">
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+        <div class="container">
+            <a class="navbar-brand fw-bold" href="#">FC 27</a>
+
+            <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="menu">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#modos">Modos</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#novedades">Novedades</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#faq">FAQ</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero -->
+    <section class="hero text-center text-white d-flex align-items-center">
+        <div class="container">
+            <h1 class="display-3 fw-bold">EA SPORTS FC 27</h1>
+
+            <p class="lead">
+                Vive el fútbol con gráficos mejorados,
+                nuevas animaciones y una experiencia más realista.
+            </p>
+
+            <button class="btn btn-warning btn-lg mt-3">
+                Ver Tráiler
+            </button>
+        </div>
+    </section>
+
+    <!-- Cards -->
+    <section id="modos" class="container py-5">
+        <h2 class="text-center mb-5">Modos Destacados</h2>
+
+        <div class="row g-4">
+
+            <div class="col-md-4">
+                <div class="card h-100 shadow">
+                    <div class="card-body">
+                        <h5 class="card-title">Ultimate Team</h5>
+
+                        <p class="card-text">
+                            Construye tu equipo ideal y compite online.
+                        </p>
+
+                        <a href="#" class="btn btn-primary">
+                            Más información
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card h-100 shadow">
+                    <div class="card-body">
+                        <h5 class="card-title">Modo Carrera</h5>
+
+                        <p class="card-text">
+                            Gestiona tu club o conviértete en una leyenda.
+                        </p>
+
+                        <a href="#" class="btn btn-success">
+                            Explorar
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card h-100 shadow">
+                    <div class="card-body">
+                        <h5 class="card-title">Clubes</h5>
+
+                        <p class="card-text">
+                            Forma equipo con amigos y domina las ligas.
+                        </p>
+
+                        <a href="#" class="btn btn-danger">
+                            Jugar ahora
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Accordion -->
+    <section id="faq" class="container py-5">
+        <h2 class="text-center mb-4">Preguntas Frecuentes</h2>
+
+        <div class="accordion" id="acordeon">
+
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button" data-bs-toggle="collapse" data-bs-target="#uno">
+                        ¿Qué es FC 27?
+                    </button>
+                </h2>
+
+                <div id="uno" class="accordion-collapse collapse show">
+                    <div class="accordion-body">
+                        La nueva entrega del simulador de fútbol de EA Sports.
+                    </div>
+                </div>
+            </div>
+
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#dos">
+                        ¿Tiene Ultimate Team?
+                    </button>
+                </h2>
+
+                <div id="dos" class="accordion-collapse collapse">
+                    <div class="accordion-body">
+                        Sí, con nuevas opciones de personalización.
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white text-center py-4">
+        <p class="mb-0">
+            © 2026 FC 27 Fan Site | Bootstrap 5.3.9
+        </p>
+    </footer>
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/app_fifa.js"></script>
+
+</body>
+</html>
